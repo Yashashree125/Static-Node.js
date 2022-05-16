@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+html{
+    font-size: 75.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+section{
+    padding:2rem 9%;
+  }
+
+ 
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+    padding:2rem;
+    color:rgb(246, 76, 76);
+    
+ 
+}
+.heading:hover{
+    color: rgba(86, 158, 18, 0.787);
+  
+
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+  }
+  .site-header { 
+   
+    background-color: rgb(3, 3, 75);;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    height: 90%;
+    width: 0;
+    display:inherit;
+  }
+
+  .gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .gallery .box-container .box{
+    height:35rem;
+    flex:1 1 30rem;
+    border:3rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 2.5rem;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  .gallery .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box .content{
+    position: absolute;
+    top:-100%; left:0;
+    height: 100%;
+    width:100%;
+    background:rgba(255,255,255,.9);
+    padding:2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
+  .gallery .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:#333;
+  }
+  
+  .gallery .box-container .box .content p{
+    font-size: 1.7rem;
+    font-style: italic;
+    color:rgb(6, 4, 128);
+    padding:1rem 0;
+  }
+  
+  .gallery .box-container .box:hover .content{
+    top:0;
+  }
+  
